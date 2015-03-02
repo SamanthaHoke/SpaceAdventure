@@ -1,0 +1,73 @@
+﻿body, button{
+    font-family:exoblack;
+    font-size: large;
+    text-align: center;
+}
+h1, h3{
+    text-decoration: underline;
+}
+p{
+    margin: 0;
+    padding:0;
+}
+div{
+    display:block;
+    width: 650px;
+    height: 750px;
+    margin: 0 auto;
+    border: 3px solid limegreen;
+    border-radius: 10px;
+    background-color: black;
+    color: limegreen;
+}
+img{
+    position: absolute;
+    border-radius: 3px;
+}
+button{
+    display: block;
+    margin: 5px auto;
+    border-radius: 4px;
+    background-color:blueviolet;
+}
+#startPage img{
+    display: inline-block;
+    margin: 3px;
+    position:relative;
+    vertical-align:middle;
+}
+#startPage p{
+    display: inline-block;
+    margin: 15px 0 15px 5px;
+}
+#game{
+    display: none;
+    background-color: green;
+    color: black;
+}
+#game button{
+    display: inline-block;
+    background-color: darkorange;
+    border-color: black;
+}
+#stage{
+    position:relative;
+    width: 512px;
+    height: 512px;
+    background-image: url("../images/background.jpg");
+}
+#endGame{
+    display: none;
+}
+@font-face {
+    font-family: 'exoblack';
+    src: url('../fonts/Exo-Black.eot');
+    src: url('../fonts/Exo-Black.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Exo-Black.woff2') format('woff2'),
+         url('../fonts/Exo-Black.woff') format('woff'),
+         url('../fonts/Exo-Black.ttf') format('truetype'),
+         url('../fonts/Exo-Black.svg#exoblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

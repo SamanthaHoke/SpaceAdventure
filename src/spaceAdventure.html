@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title> Space Adventure</title>
+    <link rel="stylesheet" href="spaceAdventureCss.css" />
+</head>
+<body>
+    <div id="startPage">
+        <h1>Welcome to Space Adventure!</h1>
+        <p>Your mission is to reach saturn <br/>without being eaten by the great floating <em>alien</em>.
+        </p>
+        <img src="../images/alien.png" alt="alien" />
+        <p> You must make it <em>home</em> before your oxygen runs out.</p>
+        <img src="../images/home.png" alt="home" />
+        <p> Fight <em>enemy ships</em> to gain platinum coins.</p>
+        <img src="../images/enemy.png" alt="enemy" />
+        <p> Visit <em>planets</em> to use your platinum coins to buy more oxygen.</p>
+        <img src="../images/planet.png" alt="planet" />
+        <h2> Have Fun!</h2>
+        <button id="play">Play</button>
+    </div>
+    <div id="game">
+        <h1>Play!</h1>
+        <p> Use the arrow keys to find your way home.</p>
+        <p id="output"></p>
+        <div id="stage"></div>
+        <button id="pauseMusic">Pause Music</button>
+        <button id="playMusic">Play Music</button>
+        <audio id="music" loop>
+            <source type="audio/mp3" src="../music/spaceSong.mp3" />
+            <source type="audio/ogg" src="../music/spaceSong.ogg" />
+            Audio not supported
+        </audio>
+
+    </div>
+    <div id="endGame">
+        <h1 id="endHeader"></h1>
+        <p id="endMessage"></p>
+        <button id="reset">Play again?</button>
+    </div>
+    <script src="spaceAdventureScript.js"></script>
+</body>
+</html>
